@@ -7,7 +7,7 @@ def odds_to_prob(odds):
 def implied_margin(odds_list):
     return round(sum(odds_to_prob(o) for o in odds_list) - 100, 2)
 
-API_KEY = "TU_API_KEY_AQUI"  # ← Reemplaza esto con tu clave real
+API_KEY =  3ff8d909c9e4958d2524f587862c76d0 # ← Reemplaza esto con tu clave real
 SPORT = "soccer_uefa_champions_league"
 REGION = "eu"
 MARKET = "h2h"
